@@ -37,9 +37,17 @@ const config = {
           ({
               docs: {
                   sidebarPath: require.resolve('./sidebars.js'),
+                  breadcrumbs: false,
+                  showLastUpdateAuthor: true,
                   // Please change this to your repo.
                   editUrl: 'https://github.com/boyney123/eventcatalog/edit/master/website/',
               },
+              theme: {
+                  customCss: [
+                      require.resolve('./src/css/custom.css'),
+                      require.resolve('./node_modules/prismjs/themes/prism-tomorrow.css')
+                  ]
+              }
           }),
       ],
   ],
@@ -65,7 +73,7 @@ const config = {
                   {
                       type: 'doc',
                       position: 'left',
-                      docId: 'writeups/create-a-page',
+                      docId: 'writeups/index',
                       label: 'Writeups',
                   },
               ],
