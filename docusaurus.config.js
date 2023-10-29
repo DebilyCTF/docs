@@ -23,11 +23,6 @@ const config = {
   organizationName,
   projectName,
 
-  deploymentBranch: 'release',
-  // TODO: add for deply purposes
-  // githubHost: '',
-  // TODO: add for deply purposes
-  // githubPort: '',
   presets: [
       [
           '@docusaurus/preset-classic',
