@@ -44,6 +44,16 @@ const config = {
           }),
       ],
   ],
+  themes: [
+      [
+          require.resolve("@easyops-cn/docusaurus-search-local"),
+          /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+          ({
+                indexBlog: false,
+                hashed: true,
+          })
+      ],
+  ],
   themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
@@ -69,27 +79,23 @@ const config = {
                       docId: 'writeups/index',
                       label: 'Writeups',
                   },
+                  {
+                      href: 'https://ctftime.org/team/138085',
+                      position: 'right',
+                      label: 'CTFtime',
+                  },
+                  {
+                      href: 'https://github.com/DebilyCTF/docs',
+                      position: 'right',
+                      className: 'header-github-link',
+                      'aria-label': 'GitHub repository',
+                  },
               ],
               hideOnScroll: false,
           },
           prism: {
               theme: lightCodeTheme,
               darkTheme: darkCodeTheme,
-          },
-          footer: {
-              copyright: 'Developed and designed by team Debily',
-              style: 'dark',
-              links: [
-                  {
-                      title: 'Socials',
-                      items: [
-                          {
-                              label: 'CTFtime',
-                              href: 'https://ctftime.org/team/138085',
-                          },
-                      ],
-                  },
-              ],
           },
       }),
 };

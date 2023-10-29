@@ -32,4 +32,6 @@ https://pastebin.com/YnKqT9s3
 Huge string. Let's just paste it into [CyberChef](http://icyberchef.com/)
 The first thing I see is that it is a png format. The recipe we need is **Render Image** input format: Raw. It outputs image with the flag.
 
-Flag: CYCTF\{2_f0r_th3_pr1c3_0f_1_b64}
+:::tip[Flag]
+CYCTF\{2_f0r_th3_pr1c3_0f_1_b64}
+:::
