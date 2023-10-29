@@ -4,7 +4,7 @@
 
 This is our official key generator that we use to derive keys from machine numbers. Our developer put a secret in its code. Can you find it?
 
-[Attached file](resources/keygen)
+[Attached file](resources/keygen.elf)
 
 ## Solution
 

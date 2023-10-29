@@ -4,14 +4,14 @@
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
+const organizationName = 'DebilyCTF';
+const projectName = 'docs';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CTF Cheatsheet',
-  // TODO: deploy and set the link
-  url: 'https://example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`,
 
   favicon: 'img/favicon.ico',
   i18n: {
@@ -20,12 +20,10 @@ const config = {
   },
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'Debily',
+  organizationName,
+  projectName,
 
-  // TODO: add for deply purposes
-  // projectName: '',
-  // TODO: add for deply purposes
-  // deploymentBranch: '',
+  deploymentBranch: 'release',
   // TODO: add for deply purposes
   // githubHost: '',
   // TODO: add for deply purposes

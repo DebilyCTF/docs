@@ -6,7 +6,7 @@ ez overflow.
 
 nc cyberyoddha.baycyber.net 10001
 
-[Overflow1](resources/Overflow1);
+[Overflow1](resources/Overflow1.elf);
 [Overflow1.c](resources/overflow1.c)
 
 ## Solution
@@ -61,7 +61,7 @@ ez overflow (or is it?)
 
 nc cyberyoddha.baycyber.net 10002
 
-[Overflow2](resources/Overflow2);
+[Overflow2](resources/Overflow2.elf);
 [Overflow2.c](resources/overflow2.c)
 
 ## Solution
@@ -135,7 +135,7 @@ looks like buffer overflows aren’t so easy anymore.
 
 nc cyberyoddha.baycyber.net 10003
 
-[Overflow3](resources/Overflow3);
+[Overflow3](resources/Overflow3.elf);
 [Overflow3.c](resources/overflow3.c)
 
 ## Solution
