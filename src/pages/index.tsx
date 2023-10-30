@@ -5,6 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import baseImage from './photo_2023-10-31_00-07-55.jpg';
+
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -25,9 +27,8 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main className={styles.main}>
+        <img src={baseImage} />
       </main>
     </Layout>
   );
