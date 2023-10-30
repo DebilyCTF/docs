@@ -6,12 +6,19 @@ sidebar_position: 2
 
 ## Description
 
-[Attached file](resources)
+// task description/screenshot
+
 :::note[Category]
-pwn/reverse-engineering/steganography/web/programming/forensics/traffic analysis/OSINT
+pwn/cryptography/reverse-engineering/steganography/web/programming/forensics/traffic analysis/OSINT
 :::
 
+[Attached file](resources)
+
 ## Solution
+
+// text the solution here.
+
+## Flag
 
 :::tip[Flag]
 flag\{pu7_it@h3r3}
