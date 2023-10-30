@@ -12,7 +12,7 @@ pwn/cryptography/reverse-engineering/steganography/web/programming/forensics/tra
 
 // task description/screenshot
 
-[Attached file](resources)
+[Attached file](resources/put_your_file_here.txt)
 
 ## Solution
 
